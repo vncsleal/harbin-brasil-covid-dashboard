@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "https://api.brasil.io/(.*)",
+      "source": "/api/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "true" },
