@@ -14,7 +14,7 @@ export default class SP extends Component {
     axios
       .get('/?city=São Paulo&is_last=True', {
         headers: {
-          Authorization: `token bd8a99acb781704f4eb8170354eb636434b39665`,
+          Authorization: `token 4650fbff05e31b89147627514795e84e3370d4e1`,
         },
       })
       .then((res) => {
