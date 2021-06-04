@@ -4,7 +4,6 @@ const instance = axios.create({
   headers: {
     'Access-Control-Allow-Origin' : 'https://api.brasil.io',
     'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS'
-  },
-  withCredentials: true
+  }
 });
 export default instance;
