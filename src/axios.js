@@ -7,3 +7,5 @@ const instance = axios.create({
   }
 });
 export default instance;
+
+/* 4650fbff05e31b89147627514795e84e3370d4e1 */

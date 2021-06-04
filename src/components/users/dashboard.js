@@ -4,7 +4,7 @@ import Ilha from './Ilha';
 import TL from './TL';
 import SPChart from './SPchart';
 import TLChart from './TLchart';
-import IlhaChart from './Ilhachart';
+/* import IlhaChart from './Ilhachart'; */
 import Brasil from './Brasil';
 
 export default function Dashboard() {
@@ -20,7 +20,7 @@ export default function Dashboard() {
         <div class="grid md:grid-cols-3">
           <SPChart></SPChart>
           <TLChart></TLChart>
-          <IlhaChart></IlhaChart>
+          {/* <IlhaChart></IlhaChart> */}
         </div>
       </div>
     </div>
