@@ -1,26 +1,18 @@
 import '../../App.css';
-import SP from './SP';
-import Ilha from './Ilha';
-import TL from './TL';
-import SPChart from './SPchart';
-import TLChart from './TLchart';
-/* import IlhaChart from './Ilhachart'; */
-import Brasil from './Brasil';
+import Card from './card';
+import Chart from './chart';
 
 export default function Dashboard() {
   return (
     <div>
       <div class="grid bg-gray-50 ">
         <div class="grid md:grid-cols-4">
-          <Brasil></Brasil>
-          <SP></SP>
-          <Ilha></Ilha>
-          <TL></TL>
+          <Card region="Assis Brasil" />
+          <Card region="Brasil" />
         </div>
-        <div class="grid md:grid-cols-3">
-          <SPChart></SPChart>
-          <TLChart></TLChart>
-          {/* <IlhaChart></IlhaChart> */}
+        <div class="grid md:grid-cols-2">
+          <Chart region="Assis Brasil" />
+          <Chart region="Brasil" />
         </div>
       </div>
     </div>
