@@ -22,11 +22,7 @@ export default class TLChart extends Component {
   }
   getChartData() {
     axios
-      .get('/?city=Três Lagoas', {
-        headers: {
-          Authorization: `token 4650fbff05e31b89147627514795e84e3370d4e1`,
-        },
-      })
+      .get('/?city=Três Lagoas')
       .then((res) => {
         const chartData = res.data.results.reverse();
 

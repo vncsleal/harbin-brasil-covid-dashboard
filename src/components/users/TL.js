@@ -12,11 +12,7 @@ export default class TL extends Component {
   }
   getUsersData() {
     axios
-      .get('/?city=Três Lagoas&is_last=True', {
-        headers: {
-          Authorization: `token 4650fbff05e31b89147627514795e84e3370d4e1`,
-        },
-      })
+      .get('/?city=Três Lagoas&is_last=True')
       .then((res) => {
         const data = res.data.results;
 

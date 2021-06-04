@@ -12,11 +12,7 @@ export default class Ilha extends Component {
   }
   getUsersData() {
     axios
-      .get('/?city=Ilha Solteira&is_last=True', {
-        headers: {
-          Authorization: `token 4650fbff05e31b89147627514795e84e3370d4e1`,
-        },
-      })
+      .get('/?city=Ilha Solteira&is_last=True')
       .then((res) => {
         const data = res.data.results;
 

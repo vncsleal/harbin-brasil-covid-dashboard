@@ -12,11 +12,7 @@ export default class Brasil extends Component {
   }
   getUsersData() {
     axios
-      .get('/?place_type=state&is_last=True&format=json', {
-        headers: {
-          Authorization: `token 4650fbff05e31b89147627514795e84e3370d4e1`
-        },
-      })
+      .get('/?place_type=state&is_last=True&format=json')
       .then((res) => {
         const data = res.data.results;
         const brazilianConfirmedCases = data.reduce((acc, curr) => {

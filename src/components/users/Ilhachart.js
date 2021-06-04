@@ -22,11 +22,7 @@ export default class IlhaChart extends Component {
   }
   getChartData() {
     axios
-      .get('/?city=Ilha Solteira', {
-        headers: {
-          Authorization: `token 4650fbff05e31b89147627514795e84e3370d4e1`,
-        },
-      })
+      .get('/?city=Ilha Solteira')
       .then((res) => {
         const chartData = res.data.results.reverse();
 
