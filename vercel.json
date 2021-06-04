@@ -1,20 +1,25 @@
 {
   "headers": [
     {
-      "key": "Access-Control-Allow-Origin",
-      "value": "https://api.brasil.io"
-    },
-    {
-      "key": "Access-Control-Allow-Credentials",
-      "value": "true"
-    },
-    {
-      "key": "Access-Control-Allow-Headers",
-      "value": "X-Requested-With, Access-Control-Allow-Origin, X-HTTP-Method-Override, Content-Type, Cache-Control, Authorization, Accept"
-    },
-    {
-      "key": "Access-Control-Max-Age",
-      "value": "86400"
+      "source": "/v1/dataset/covid19/caso_full/data/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://api.brasil.io"
+        },
+        {
+          "key": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "X-Requested-With, Access-Control-Allow-Origin, X-HTTP-Method-Override, Content-Type, Cache-Control, Authorization, Accept"
+        },
+        {
+          "key": "Access-Control-Max-Age",
+          "value": "86400"
+        }
+      ]
     }
   ]
 }
