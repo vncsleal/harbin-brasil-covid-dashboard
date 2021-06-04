@@ -14,8 +14,7 @@ export default class Brasil extends Component {
     axios
       .get('/?place_type=state&is_last=True', {
         headers: {
-          Authorization: `token 4650fbff05e31b89147627514795e84e3370d4e1`,
-          "Access-Control-Allow-Origin": "*"
+          Authorization: `token 4650fbff05e31b89147627514795e84e3370d4e1`
         },
       })
       .then((res) => {
