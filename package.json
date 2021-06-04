@@ -50,5 +50,5 @@
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
   },
-  "proxy": "https://api.brasil.io/v1"
+  "proxy": "https://api.brasil.io"
 }

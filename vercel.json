@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/v1/(.*)",
+      "source": "/v1/dataset/covid19/caso_full/data/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
