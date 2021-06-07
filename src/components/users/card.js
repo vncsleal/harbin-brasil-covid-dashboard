@@ -3,6 +3,7 @@ import calc from './calc';
 
 function Card(props) {
   const [regionData, regionDataLast] = calc(props.region);
+  console.log(regionData);
   return regionDataLast.map((r) => (
     <div class="grid">
       <div class="m-4 border border-gray-300 p-4 rounded-2xl shadow justify-evenly gap-4 bg-white">

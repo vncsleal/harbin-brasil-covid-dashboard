@@ -12,6 +12,7 @@ import calc from './calc';
 
 function Chart(props) {
   const [regionData, regionDataLast] = calc(props.region);
+  console.log(regionDataLast);
   return (
     <div>
       <div>
